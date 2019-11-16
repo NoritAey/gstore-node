@@ -152,7 +152,6 @@ export interface Model<
    * @link https://sebloix.gitbook.io/gstore-node/queries/deleteall
    */
   deleteAll(ancestors?: Ancestor, namespace?: string): Promise<DeleteAllResponse>;
-
   /**
    * Clear all the Queries from the cache *linked* to the Model Entity Kind.
    * One or multiple keys can also be passed to delete them from the cache. We normally don't have to call this method
